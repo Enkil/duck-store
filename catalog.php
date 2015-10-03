@@ -62,4 +62,4 @@
     </div>
 </section>
 
-<? include_once 'views/footer.php';
+<?php include_once 'views/footer.php';

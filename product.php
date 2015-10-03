@@ -78,8 +78,5 @@ if (!empty($_GET["productID"]) && array_key_exists($_GET["productID"], $products
         </div>
     </div>
 </section>
-<footer>
-    <div class="container">
-        <p> © Epic Skills</p>
-    </div>
-</footer>
+
+<?php include_once 'views/footer.php';
