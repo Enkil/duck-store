@@ -20,7 +20,7 @@
                         <!-- элементы каталога -->
                         <?php
 
-                            for ($i=0; $i <= 6; $i++){
+                            foreach ($products as $product) {
                                 include 'views/_product.php';
                             }
 
