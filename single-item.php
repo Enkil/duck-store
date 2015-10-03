@@ -1,4 +1,4 @@
-<?php include_once 'config/config.php'; ?>
+<?php require_once 'config/config.php'; ?>
 
 <?php include_once 'views/head.php'; ?>
 
