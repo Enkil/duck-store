@@ -20,7 +20,10 @@
                         <!-- элементы каталога -->
                         <?php
 
-                            foreach ($products as $product) {
+                            // Делаем срез массива товаров, выводя на страницу с первого до $itemsOnIndex
+                            $itemsOnPage = array_slice($products, 0 , $itemsOnIndex);
+
+                            foreach ($itemsOnPage as $product) {
                                 include 'views/_product.php';
                             }
 
