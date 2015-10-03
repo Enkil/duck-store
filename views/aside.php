@@ -4,8 +4,8 @@
     <ul>
         <!-- Выводим категрии каталога -->
         <?php
-            foreach ($categories as $category) {
-                echo "<li><a href=''>" . $category . " </a></li>";
+            foreach ($categories as $categoryID => $categoryName) {
+                echo "<li><a href="."catalog.php?categoryID=" . $categoryID .">" . $categoryName . " </a></li>";
             }
         ?>
     </ul>
