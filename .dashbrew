@@ -1,0 +1,13 @@
+---
+duck-store.dev:
+  title: duck-store(Learn PHP in Epixx)
+  php:
+    build: system
+  shortcuts:
+    - title: Epixx PHP Learn
+      url: http://duck-store.dev/
+  vhost:
+    servername: duck-store.dev
+    serveraliases:
+      - www.duck-store.dev
+    ssl: false
