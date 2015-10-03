@@ -7,5 +7,5 @@
     mb_internal_encoding("UTF-8");
     require_once 'data.php';
 
-    $itemsOnIndex = 16;
+    $itemsOnIndex = 6;
     $itemsOnCatalog = 16;
