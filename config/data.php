@@ -1,4 +1,16 @@
 <?php
+
+// Site name
+$siteName = 'DuckStore';
+
+// Main navigation
+$mainNav = array(
+    'О Компании' => '/',
+    'Каталог' => '/catalog.php',
+    'Доставка и оплата' => '',
+    'Контакты' => ''
+);
+
 // Product categories array
 $categories = ['Маленькие уточки', 'Утки с моторчиком', 'Подводные уточки', 'Уточки ручной работы', 'Говорящие уточки'];
 
