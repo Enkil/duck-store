@@ -1,7 +1,7 @@
 <header>
     <div class="container clearfix">
         <!-- логотип -->
-        <a href="/" class="logo"><?php echo $siteName; ?></a>
+        <a href="index.php" class="logo"><?php echo $siteName; ?></a>
         <!-- меню -->
         <nav>
             <ul>

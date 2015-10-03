@@ -13,6 +13,7 @@
 
             <div class="column column9">
                 <div class="catalog">
+
                     <!-- хлебные крошки -->
                     <div class="breadcrumbs">
                         <a href="index.html">Магазин</a>
@@ -27,6 +28,7 @@
                             ?>
                         </p>
                     </div>
+
                     <div class="row clearfix">
                         <!-- элементы каталога -->
                         <?php
