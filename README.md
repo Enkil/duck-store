@@ -1,0 +1,1 @@
+Учебный проект по PHP врмках курса http://epixx.ru/learn/php/

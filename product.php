@@ -7,12 +7,12 @@
 
 <!-- Определяем ID товара. Если такой id есть, то заполняем карточку, если нет - редирект на страницу каталога -->
 <?php
-if (!empty($_GET["productID"]) && array_key_exists($_GET["productID"], $products)) { // проверяем не пустой ли &_GET и есть ли в массиве такой ключ
-    $product = $products[$_GET["productID"]];
-} else {
-    header("Location: /catalog.php");
-    die();
-}
+    if (!empty($_GET["productID"]) && array_key_exists($_GET["productID"], $products)) { // проверяем не пустой ли &_GET и есть ли в массиве такой ключ
+        $product = $products[$_GET["productID"]];
+    } else {
+        header("Location: /catalog.php");
+        die();
+    }
 ?>
 
 <section>
